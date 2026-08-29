@@ -174,7 +174,7 @@
       backdrop-filter: blur(6px);
       -webkit-backdrop-filter: blur(6px);
     }
-    /* Mengaktifkan modal jika class active ditambahkan */
+    /* Membuka modal saat class active ditambahkan melalui JS */
     .video-modal.active {
       display: flex;
     }
@@ -306,27 +306,26 @@
     <!-- 3. Description -->
     <div class="desc">🔥 Viral Picks for You! Don't miss the latest funny, wild, and trending videos. Laugh, relax, and share with your friends!</div>
     
-    <!-- 4. Stars Rating -->
+    <!-- 4. Stars Rating (Ditutup Sempurna dengan 5 SVG Bintang) -->
     <div class="stars">
-      <!-- 5 Bintang SVG Kuning Emas -->
-      <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
-      <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
-      <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
-      <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
-      <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+      <svg fill="#FFD700" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+      <svg fill="#FFD700" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+      <svg fill="#FFD700" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+      <svg fill="#FFD700" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+      <svg fill="#FFD700" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
     </div>
     
-    <!-- 5. Watch Link -->
+    <!-- 5. Watch Link Button -->
     <a href="#" class="open-link" id="watchBtn">Watch Video</a>
 
-    <!-- 6. Ad Space Below Watch Button -->
+    <!-- 6. Ad Space Below Watch -->
     <div class="ad-below-watch">
       <div id="adBelowWatch">
-        <!-- Letakkan kode iklan banner Anda di sini -->
+        <!-- Kode iklan banner Anda disini -->
       </div>
     </div>
 
-    <!-- 7. More Video Button -->
+    <!-- 7. More Videos Button -->
     <a href="#" class="more-video-btn">More Videos</a>
   </div>
 
@@ -335,32 +334,12 @@
     <div class="video-modal-content">
       <button class="close-btn" id="closeBtn">CLOSE</button>
       
-      <!-- Ganti 'video.mp4' dengan path/URL video asli Anda -->
+      <!-- Pemutar Video dengan URL tujuan Terintegrasi -->
       <video class="video-player" id="mainVideo" controls>
-        <source src="https://cdn2.videy.co/wc3Qsf4Q1.mp4" type="video/mp4">
+        <source src="https://cdn2.videy.co/wc3Qsf4Q1.mp4/" type="video/mp4">
         Your browser does not support the video tag.
       </video>
 
       <!-- Ad Space Inside Modal -->
       <div class="ad-modal">
         <div id="adModal">
-          <!-- Letakkan kode iklan modal Anda di sini -->
-        </div>
-      </div>
-    </div>
-  </div>
-
-   <!-- Histats.com  START  (aync)-->
-<script type="text/javascript">var _Hasync= _Hasync|| [];
-_Hasync.push(['Histats.start', '1,4573229,4,0,0,0,00010000']);
-_Hasync.push(['Histats.fasi', '1']);
-_Hasync.push(['Histats.track_hits', '']);
-(function() {
-var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
-hs.src = ('//s10.histats.com/js15_as.js');
-(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
-})();</script>
-<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4573229&101" alt="" border="0"></a></noscript>
-<!-- Histats.com  END  -->  
-</body>
-</html>    
